@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual env
+venv/
+.venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Training artifacts / logs
+tb_runs/
+eval_logs/
+checkpoints/
+best_model/
+*.pkl
+*.zip
+*.npy
+
